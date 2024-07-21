@@ -20,7 +20,7 @@ const Home = () => {
         <Grid container spacing={2}>
             {doc.map((val,i)=>{
                 return (
-                    <Grid item xs={12} md={3}>
+                    <Grid key={val.id}item xs={12} md={3}>
                         <Card sx={{ maxWidth: 390 }}>
                                 <CardMedia
                                     sx={{ height: 240 }}
