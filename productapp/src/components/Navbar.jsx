@@ -12,7 +12,7 @@ const Navbar = () => {
             <AppBar position="static" style={{backgroundColor:'black'}}>
                 <Toolbar>
                     <Typography variant='h5' sx={{flexGrow:1}} style={{marginLeft:"3%",color:"white"}}>Product</Typography>
-                    <HomeIcon onClick={()=>{navigate('/h')}} size='large' color='primary' aria-label='home' sx={{mr:2}} edge='start'/>
+                    <HomeIcon onClick={()=>{navigate('/')}} size='large' color='primary' aria-label='home' sx={{mr:2}} edge='start'/>
                     <Button><Link to={'/a'} style={{textDecoration:"none",color:"white"}}>AddItems</Link></Button>
                 </Toolbar>
             </AppBar>

@@ -2,6 +2,7 @@ import { Button, Grid, TextField, Typography } from '@mui/material'
 import React, { useState } from 'react'
 
 const Add = () => {
+    var [data,setData]=useState({ProductName:"",Price:"",Category:"",image:""})
     const inputHandler = (e) => {
       if (e.target.name === 'image') {
         const file = e.target.files[0]; // Get the file object
